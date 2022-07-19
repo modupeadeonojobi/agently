@@ -4,7 +4,7 @@ import { faImages, faUpload } from "@fortawesome/free-solid-svg-icons";
 
 import "./PropertyImage.css";
 
-const PropertyImage = () => {
+export const PropertyImage = () => {
   const inputRef = useRef<HTMLInputElement>();
   const [imgArray, setImgArray] = useState([]);
 
@@ -86,5 +86,3 @@ const PropertyImage = () => {
     </>
   );
 };
-
-export default PropertyImage;

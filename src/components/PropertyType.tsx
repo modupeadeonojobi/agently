@@ -12,7 +12,7 @@ import Office from './../assets/img/office.jpg';
 
 import './PropertyType.css'
 
-const PropertyType = () => { 
+export const PropertyType = () => { 
   return (
     <>
       <div className='property-type'>
@@ -162,5 +162,3 @@ const PropertyType = () => {
     </>
   )
 }
-
-export default PropertyType;

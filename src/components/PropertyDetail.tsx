@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 
 import "./PropertyDetail.css";
 
-const PropertyDetails = () => {
+export const PropertyDetails = () => {
   return (
     <>
       <div className="property-details">
@@ -72,6 +72,4 @@ const PropertyDetails = () => {
       </div>
     </>
   );
-};
-
-export default PropertyDetails;
+}; 

@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 
 import "./PropertyDesc.css";
 
-const PropertyDesc = () => {
+export const PropertyDesc = () => {
   return (
     <>
       <div className="property-desc">
@@ -44,5 +44,3 @@ const PropertyDesc = () => {
     </>
   );
 };
-
-export default PropertyDesc;

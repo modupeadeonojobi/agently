@@ -10,7 +10,7 @@ import './PropertyCarousel.css'
 type CarouselProp = {
   className?: string
 }
-const PropertyCarousel = (props: CarouselProp) => {
+export const PropertyCarousel = (props: CarouselProp) => {
   return (
     <Carousel fade controls={false}>
       <Carousel.Item>
@@ -37,5 +37,3 @@ const PropertyCarousel = (props: CarouselProp) => {
     </Carousel>
   )
 }
-
-export default PropertyCarousel;

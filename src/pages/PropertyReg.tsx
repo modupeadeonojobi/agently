@@ -3,11 +3,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
 
-import PropertyCarousel from '../components/PropertyCarousel';
-import PropertyType from '../components/PropertyType';
-import PropertyDetails from '../components/PropertyDetail';
-import PropertyDesc from '../components/PropertyDesc';
-import PropertyImage from '../components/PropertyImage';
+import { PropertyCarousel } from '../components/PropertyCarousel';
+import { PropertyType } from '../components/PropertyType';
+import { PropertyDetails } from '../components/PropertyDetail';
+import { PropertyDesc } from '../components/PropertyDesc';
+import { PropertyImage } from '../components/PropertyImage';
 
 
 const PropertyReg = () => { 
