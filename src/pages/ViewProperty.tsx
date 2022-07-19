@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Button, Container, Badge } from "react-bootstrap";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { PropertyCarousel } from "../components/PropertyCarousel";
 import { PropertyDescription } from "../components/PropertyDescription";
@@ -22,6 +23,7 @@ export const ViewProperty = () => {
             <PropertyDescription />
           </Col>
         </Row>
+        <Footer />
       </Container>
     </>
   );
