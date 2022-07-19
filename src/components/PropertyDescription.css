@@ -1,0 +1,26 @@
+.nav-link, .nav-link:hover {
+    color: #495057;
+    margin-bottom: 0;
+
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: #000 .1px solid;
+    font-weight: 600;
+}
+
+.nav-tabs {
+    border-color: #fff; 
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #fff; 
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus {
+    color: #495057;
+    border-color: #fff;
+    border-bottom: #000 3px solid;
+}

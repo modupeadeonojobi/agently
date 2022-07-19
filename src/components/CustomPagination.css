@@ -1,0 +1,29 @@
+.pagination {
+  align-items: baseline;
+}
+
+.page-item {
+  margin: 5px;
+}
+
+.page-item .page-link {
+  z-index: 3;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+}
+
+.page-item.active .page-link {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  font-size: 30px;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}

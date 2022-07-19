@@ -1,0 +1,65 @@
+
+.property-details {
+  padding: 5rem 2rem;
+}
+
+.right {
+    left: 36.4rem;
+    top: 7.8rem;
+}
+
+.icon-label {
+    position: relative;
+    left: 51vw;
+    top: -2.5rem;
+}
+
+.bathroom-label {
+    position: absolute;
+    left: 36.6rem;
+    top: 17.5rem;
+}
+
+.address-input {
+    padding: .375rem .75rem !important;
+}
+
+.bedroom-label {
+    position: absolute;
+    left: 58.5rem;
+    top: 17.5rem;
+}
+
+.seating-label {
+    position: absolute;
+    left: 36.6rem;
+    top: 21.2rem;
+}
+
+.kitchen-label {
+    position: absolute;
+    left: 58.5rem;
+    top: 21.3rem;
+}
+
+.toilet-label {
+    position: absolute;
+    left: 36.6rem;
+    top: 25.0rem;
+}
+
+.form-control, .form-select {
+    width: 100%;
+    margin-top: .8rem;
+    padding: .9rem .75rem .2rem .75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #212529;
+}
+
+.form-control:focus, .form-control:active, 
+.form-select:focus, .form-seledt:active {
+    border-color: #cfd4da !important;
+    box-shadow: none;
+}

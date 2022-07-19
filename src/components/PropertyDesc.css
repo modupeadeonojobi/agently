@@ -1,0 +1,47 @@
+
+
+.property-desc {
+    padding: 3rem 2rem;
+}
+
+.text-label {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.right-label {
+    position: absolute;
+    top: 29.9rem;
+    left: 58.4rem;
+}
+
+.left-label {
+    position: absolute;
+    top: 29.9rem;
+    left: 36.8rem;
+}
+
+.form-text {
+    color: #212529;
+}
+
+.first-row {
+    border-bottom: 1px solid #cfd4da;
+    height: 6.4rem;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    margin-top: 0.8rem;
+    padding: 1.3rem 0.75rem 0.2rem 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2;
+    color: #212529;
+}
+
+.description-input {
+    padding: .375rem .75rem !important;
+}

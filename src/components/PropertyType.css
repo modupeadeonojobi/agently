@@ -1,0 +1,31 @@
+
+
+.property-type {
+    padding: 5rem 2rem;
+}
+
+.list-img {
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.first-item {
+    border: 1px solid;
+}
+
+.list-group-item {
+    border-radius: 4px;
+    width: 200px;
+}
+
+.text-name {
+    display: inline-block;
+    width: 80px;
+    font-size: 14px;
+}
+
+
+.list-group-horizontal>.list-group-item+.list-group-item {
+    border-left-width: 1px;
+}

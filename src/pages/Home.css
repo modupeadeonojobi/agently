@@ -1,0 +1,52 @@
+.nav {
+ display: flex;
+ overflow: hidden;
+ flex-wrap: nowrap;
+ min-width: max-content;
+}
+
+.colnav {
+ overflow: auto;
+}
+
+::-webkit-scrollbar {
+ width: 0px;
+ background: transparent;
+ /* make scrollbar transparent */
+}
+
+.chevron {
+ font-size: larger;
+}
+
+.nav-item a {
+ color: #6c757d !important;
+ font-size: .9rem;
+ font-weight: 500;
+}
+
+.home {
+ font-weight: bolder;
+ position: relative;
+}
+
+.home:after {
+ content: '';
+ width: 60%;
+ position: absolute;
+ left: 15px;
+ bottom: 1px;
+ border-width: 0 0 2px;
+ border-style: solid;
+ /* margin: 0 auto; */
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+
+
