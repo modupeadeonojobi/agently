@@ -8,7 +8,7 @@ import House from './../assets/img/house.jpg'
 import Flat from './../assets/img/mini-flat.jpg'
 import Office from './../assets/img/office.jpg'
 
-export const ViewProperty = () => {
+export const PropertyView = () => {
   return (
     <>
       <Header />
