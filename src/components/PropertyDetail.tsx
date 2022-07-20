@@ -21,49 +21,49 @@ export const PropertyDetails = () => {
           <Form.Group>
             <Form.Text className="second-title">Rooms</Form.Text>
             <Row>
-              <Col>
+              <Col id='col'>
                 <Form.Select>
                   <option>0</option>
                   <option>1</option>
                   <option>2</option>
                 </Form.Select>
-                <Form.Label className="bathroom-label">Bathroom</Form.Label>
+                <Form.Label className="property-label">Bathroom</Form.Label>
               </Col>
-              <Col>
+              <Col id='col'>
                 <Form.Select>
                   <option>0</option>
                   <option>1</option>
                   <option>2</option>
                 </Form.Select>
-                <Form.Label className="bedroom-label">Bedroom</Form.Label>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Form.Select>
-                  <option>0</option>
-                  <option>1</option>
-                  <option>2</option>
-                </Form.Select>
-                <Form.Label className="seating-label">Seating room</Form.Label>
-              </Col>
-              <Col>
-                <Form.Select>
-                  <option>0</option>
-                  <option>1</option>
-                  <option>2</option>
-                </Form.Select>
-                <Form.Label className="kitchen-label">Kitchen</Form.Label>
+                <Form.Label className="property-label">Bedroom</Form.Label>
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col id='col'>
                 <Form.Select>
                   <option>0</option>
                   <option>1</option>
                   <option>2</option>
                 </Form.Select>
-                <Form.Label className="toilet-label">Toilet</Form.Label>
+                <Form.Label className="property-label">Seating room</Form.Label>
+              </Col>
+              <Col id='col'>
+                <Form.Select>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                </Form.Select>
+                <Form.Label className="property-label">Kitchen</Form.Label>
+              </Col>
+            </Row>
+            <Row>
+              <Col id='col'>
+                <Form.Select>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                </Form.Select>
+                <Form.Label className="property-label">Toilet</Form.Label>
               </Col>
               <Col></Col>
             </Row>

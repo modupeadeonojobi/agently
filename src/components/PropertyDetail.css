@@ -2,6 +2,10 @@
   padding: 0rem 2rem;
 }
 
+#col {
+    position: relative;
+}
+
 .right {
     left: 36.4rem;
     top: 7.8rem;
@@ -13,38 +17,15 @@
     top: -2.5rem;
 }
 
-.bathroom-label {
+.property-label {
     position: absolute;
-    left: 36.6rem;
-    top: 12.5rem;
+    left: 0;
+    top: 0;
+    padding: 1rem 1.3rem;
 }
 
 .address-input {
     padding: .375rem .75rem !important;
-}
-
-.bedroom-label {
-    position: absolute;
-    left: 58.5rem;
-    top: 12.5rem;
-}
-
-.seating-label {
-    position: absolute;
-    left: 36.6rem;
-    top: 16.2rem;
-}
-
-.kitchen-label {
-    position: absolute;
-    left: 58.5rem;
-    top: 16.3rem;
-}
-
-.toilet-label {
-    position: absolute;
-    left: 36.6rem;
-    top: 20rem;
 }
 
 .form-control, .form-select {

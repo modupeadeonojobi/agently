@@ -32,13 +32,13 @@ export const PropertyDesc = () => {
 
           <Form.Text className="text-label">Validation period</Form.Text>
           <Row className="first-row">
-            <Col>
+            <Col id='col'>
               <Form.Control type="text" placeholder="6/12/2022" />
-              <Form.Label className="left-label">From</Form.Label>
+              <Form.Label className="label">From</Form.Label>
             </Col>
-            <Col>
+            <Col id='col'>
               <Form.Control type="text" placeholder="23/1/2023" />
-              <Form.Label className="right-label">To</Form.Label>
+              <Form.Label className="label">To</Form.Label>
             </Col>
           </Row>
         </Form>
