@@ -10,8 +10,10 @@ export const PropertyDesc = () => {
       <div className="property-desc">
         <Form>
           <Form.Group controlId="propertyOwner" className="mb-4">
-          <h3 className="text-label">Property Owner</h3>
-            <Form.Control type="text" autoFocus />
+          <h4 className="text-label">Property Owner</h4>
+          <Form.Control type="text"
+            placeholder="IJT Realtor"
+            autoFocus />
           </Form.Group>
 
           <hr />
@@ -21,7 +23,7 @@ export const PropertyDesc = () => {
             <Form.Control
               as="textarea"
               className="description-input"
-              placeholder="what do you have in mind?"
+              placeholder="What do you have in mind?"
               style={{ height: "100px" }}
             />
           </Form.Group>

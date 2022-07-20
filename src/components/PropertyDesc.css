@@ -5,20 +5,20 @@
 }
 
 .text-label {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.2;
 }
 
 .right-label {
     position: absolute;
-    top: 29.9rem;
+    top: 28rem;
     left: 58.4rem;
 }
 
 .left-label {
     position: absolute;
-    top: 29.9rem;
+    top: 28rem;
     left: 36.8rem;
 }
 

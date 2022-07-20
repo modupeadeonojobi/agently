@@ -76,7 +76,7 @@ export const PropertyDescription = () => {
             </Tab.Content>
           </Tab>
           <Tab eventKey="map-view" title="Map View">
-            Map
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9601701370448!2d7.441871814149827!3d9.067393190884621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b298feacf6b%3A0xb1af47d9ec9fd445!2sGreen%20Minds%20Hotel!5e0!3m2!1sen!2sng!4v1658300736109!5m2!1sen!2sng" width="600" height="450" style={{border:0}} loading="lazy" ></iframe>
           </Tab>
         </Tabs>
       </div>
