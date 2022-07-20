@@ -52,10 +52,10 @@ export const PropertyDescription = () => {
                 </Row>
               </Tab.Container>
               <Tab.Container>
-                <p className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-                  nihil iste! Ullam, assumenda tenetur saepe ut deleniti voluptate libero,
-                  corrupti veritatis provident accusamus inventore neque perferendis iure
-                  reprehenderit expedita impedit.
+                <p className='mt-4'>
+                  3 bedroom house for sale at Ikoyi the local government council headquarters Lagos. 
+                  Selling for ₦30,000,000. See property details on Agently or browse all our for sale 
+                  properties in Ikoyi all Ensuite 4 Bedroom detached bungalow in Ikoyi.
                   <p className='text-truncate'>...</p>
                   <a href="#" className='d-inline-block text-dark'>Show more</a> {' '}
                   <FontAwesomeIcon icon={faChevronRight} />
@@ -71,12 +71,11 @@ export const PropertyDescription = () => {
                     <img src={Share} alt="kitchen-icon" />
                   </Button>
                 </div>
-
               </Tab.Container>
             </Tab.Content>
           </Tab>
           <Tab eventKey="map-view" title="Map View">
-            Map
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9601701370448!2d7.441871814149827!3d9.067393190884621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b298feacf6b%3A0xb1af47d9ec9fd445!2sGreen%20Minds%20Hotel!5e0!3m2!1sen!2sng!4v1658300736109!5m2!1sen!2sng" width="600" height="450" style={{border:0}} loading="lazy" ></iframe>
           </Tab>
         </Tabs>
       </div>

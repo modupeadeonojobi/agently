@@ -8,6 +8,9 @@ import { PropertyType } from '../components/PropertyType';
 import { PropertyDetails } from '../components/PropertyDetail';
 import { PropertyDesc } from '../components/PropertyDesc';
 import { PropertyImage } from '../components/PropertyImage';
+import FamilyOne from './../assets/img/family-one.jpg';
+import FamilyTwo from './../assets/img/family-two.jpg';
+import FamilyThree from './../assets/img/family-three.jpg';
 
 
 const PropertyReg = () => { 
@@ -17,7 +20,7 @@ const PropertyReg = () => {
     <>
       <Row>
         <Col md={5}>
-          <PropertyCarousel className='img-carousel d-block w-100' />
+          <PropertyCarousel showPrevIcon={false} className='img-carousel d-block w-100' firstSlide={FamilyTwo} secondSlide={FamilyOne} thirdSlide={FamilyThree} />
         </Col>
         <Col md={7}>
           <div className='d-flex justify-content-end mt-3 mx-5'>
