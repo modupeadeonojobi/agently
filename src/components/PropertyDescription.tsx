@@ -71,7 +71,6 @@ export const PropertyDescription = () => {
                     <img src={Share} alt="kitchen-icon" />
                   </Button>
                 </div>
-
               </Tab.Container>
             </Tab.Content>
           </Tab>
