@@ -52,10 +52,10 @@ export const PropertyDescription = () => {
                 </Row>
               </Tab.Container>
               <Tab.Container>
-                <p className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-                  nihil iste! Ullam, assumenda tenetur saepe ut deleniti voluptate libero,
-                  corrupti veritatis provident accusamus inventore neque perferendis iure
-                  reprehenderit expedita impedit.
+                <p className='mt-4'>
+                  3 bedroom house for sale at Ikoyi the local government council headquarters Lagos. 
+                  Selling for ₦30,000,000. See property details on Agently or browse all our for sale 
+                  properties in Ikoyi all Ensuite 4 Bedroom detached bungalow in Ikoyi.
                   <p className='text-truncate'>...</p>
                   <a href="#" className='d-inline-block text-dark'>Show more</a> {' '}
                   <FontAwesomeIcon icon={faChevronRight} />
