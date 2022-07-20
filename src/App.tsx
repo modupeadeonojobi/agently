@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="property-reg" element={<PropertyReg />} />
-        <Route path="view-property" element={<ViewProperty />} />
+        <Route path="property-view" element={<ViewProperty />} />
       </Routes>
     </div>
   );

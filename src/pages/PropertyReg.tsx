@@ -36,7 +36,7 @@ const PropertyReg = () => {
 
             <button className='btn btn-dark mx-4' hidden={step === 4} onClick={() => setStep(step + 1)}>Next</button>
             {step === 4 &&
-              <Link to='/view-property'>
+              <Link to='/property-view'>
                 <button className='btn btn-dark mx-4'>Finish</button>
               </Link>}
           </div>

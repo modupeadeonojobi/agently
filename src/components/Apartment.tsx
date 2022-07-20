@@ -16,7 +16,7 @@ type PropertyProps = {
 }
 export const Apartment = ({ apartment: { id, location, type, distance, icon, amount } }: PropertyProps) => {
     return (
-        <Link to='/view-property' style={{ textDecoration: 'none', color: 'black' }}>
+        <Link to='/property-view' style={{ textDecoration: 'none', color: 'black' }}>
             <Col className='my-2' style={{ cursor: 'pointer' }}>
                 <Row>
                     <Picture id={id} />
