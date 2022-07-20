@@ -1,36 +1,35 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
-import FamilyOne from './../assets/img/family-one.jpg';
-import FamilyTwo from './../assets/img/family-two.jpg';
-import FamilyThree from './../assets/img/family-three.jpg';
-
 import './PropertyCarousel.css'
 
 type CarouselProp = {
-  className?: string
+  className?: string,
+  firstSlide?: string,
+  secondSlide?: string,
+  thirdSlide?: string,
+  showPrevIcon: boolean
 }
-export const PropertyCarousel = (props: CarouselProp) => {
+export const PropertyCarousel = ({ className, firstSlide, secondSlide, thirdSlide, showPrevIcon}: CarouselProp) => {
   return (
-    <Carousel fade controls={false}>
+    <Carousel fade controls={showPrevIcon}>
       <Carousel.Item>
         <img
-          className={props.className}
-          src={FamilyTwo}
+          className={className}
+          src={firstSlide}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className={props.className}
-          src={FamilyOne}
+          className={className}
+          src={secondSlide}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className={props.className}
-          src={FamilyThree}
+          className={className}
+          src={thirdSlide}
           alt="Third slide"
         />
       </Carousel.Item>
