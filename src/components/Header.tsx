@@ -32,7 +32,7 @@ export const Header = () => {
                 </Col>
                 <Col>
                     <div className="right">
-                        <a href="/property-reg" style={{ textDecoration: "none", color: 'black', marginRight: "2rem" }}>Own a property?</a>
+                        <Link to='/property-reg' style={{ textDecoration: "none", color: 'black', marginRight: "2rem" }}>Own a property?</Link>
                         <FontAwesomeIcon icon={faUserCircle} size={'2x'} />
                         <FontAwesomeIcon className='px-2' icon={faChevronDown} />
                     </div>
