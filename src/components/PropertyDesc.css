@@ -1,24 +1,22 @@
-
-
 .property-desc {
-    padding: 3rem 2rem;
+    padding: 0rem 2rem;
 }
 
 .text-label {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 500;
     line-height: 1.2;
 }
 
 .right-label {
     position: absolute;
-    top: 28rem;
+    top: 25.9rem;
     left: 58.4rem;
 }
 
 .left-label {
     position: absolute;
-    top: 28rem;
+    top: 25.9rem;
     left: 36.8rem;
 }
 

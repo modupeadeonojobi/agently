@@ -24,7 +24,7 @@ export const PropertyImage = () => {
     for (let i = 0; i < files[0].length; i++) {
       filesArray.push(URL.createObjectURL(files[0][i]));
     }
-    console.log(filesArray);
+  
     setImgArray(filesArray);
     if (filesArray.length > 0) {
       console.log(imgArray);

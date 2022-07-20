@@ -1,6 +1,5 @@
-
 .property-details {
-  padding: 5rem 2rem;
+  padding: 0rem 2rem;
 }
 
 .right {
@@ -17,7 +16,7 @@
 .bathroom-label {
     position: absolute;
     left: 36.6rem;
-    top: 17.5rem;
+    top: 12.5rem;
 }
 
 .address-input {
@@ -27,25 +26,25 @@
 .bedroom-label {
     position: absolute;
     left: 58.5rem;
-    top: 17.5rem;
+    top: 12.5rem;
 }
 
 .seating-label {
     position: absolute;
     left: 36.6rem;
-    top: 21.2rem;
+    top: 16.2rem;
 }
 
 .kitchen-label {
     position: absolute;
     left: 58.5rem;
-    top: 21.3rem;
+    top: 16.3rem;
 }
 
 .toilet-label {
     position: absolute;
     left: 36.6rem;
-    top: 25.0rem;
+    top: 20rem;
 }
 
 .form-control, .form-select {

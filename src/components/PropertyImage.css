@@ -1,11 +1,10 @@
-
 .property-image {
-    padding: 3rem 6rem;
+    padding: 0 6rem;
 }
 
 .img-box {
     width: 100%;
-    height: 500px;
+    height: 430px;
     border: 1px dotted black;
     padding: 180px 100px;
 }

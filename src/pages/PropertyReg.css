@@ -1,0 +1,14 @@
+.progress-bar {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 2px;
+    width: 24%;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.steps {
+    bottom: 10px;
+    width: 55%;
+}
